@@ -11,9 +11,9 @@ NOTE: This is main stylesheet of the template.
 
 
 /*================================================
-            Table of contents  
+            Table of contents
 ==================================================
- 
+
 0. BASE CSS
 1. PRELOADER
 2. SECTION TITLE AND SECTION PADDING
@@ -23,12 +23,12 @@ NOTE: This is main stylesheet of the template.
 6. SERVICES AREA
 7. WORK AREA
 8. QUOTES AREA
-9. TESTIMONIAL AREA 
+9. TESTIMONIAL AREA
 10. CONTACT INFO AREA
 11. FOOTER AREA
 
 ====================================================
-            End table content 
+            End table content
 ===================================================*/
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700,900);
@@ -104,7 +104,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   height: 100%;
   width: 6px;
   display: inline-block;
-  
+
   -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
   animation: sk-stretchdelay 1.2s infinite ease-in-out;
 }
@@ -130,15 +130,15 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 
 @-webkit-keyframes sk-stretchdelay {
-  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
   20% { -webkit-transform: scaleY(1.0) }
 }
 
 @keyframes sk-stretchdelay {
-  0%, 40%, 100% { 
+  0%, 40%, 100% {
     transform: scaleY(0.4);
     -webkit-transform: scaleY(0.4);
-  }  20% { 
+  }  20% {
     transform: scaleY(1.0);
     -webkit-transform: scaleY(1.0);
   }
@@ -201,9 +201,9 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     position: relative;
 }
 .main-menu ul.nav.navbar-nav li.active a{
-    
-    
-   
+
+
+
 }
 .main-menu ul.navbar-nav li a{
     color: #fff;
@@ -230,8 +230,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
      padding: 22px 13px;
 }
 .custom-navbar.top-nav-collapse .main-menu ul.nav.navbar-nav li.active a{
-    
-   
+
+
 }
 
 .logo a span {
@@ -285,7 +285,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     vertical-align: middle;
 }
 .welcome-text{
-    
+
 }
 .welcome-text{
     font-size: 65px;
@@ -373,7 +373,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
              5 ABOUT AREA
 ==================================================*/
 .about-area{
-    
+
 }
 .author-image {
   text-align: center;
@@ -449,7 +449,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 
 .btn:hover, a.btn:hover, .btn.btn-effect:hover {
-     
+
 }
 
 .btn.extra, a.btn.extra {
@@ -461,16 +461,16 @@ btn.extra:hover, a.btn.extra:hover{
      color: #333;
     border: 2px solid #333;
     background: transparent;
-    
+
 }
 .btn:focus, a.btn:focus {
     outline: none;
 }
 .btn:hover, a.btn:hover{
-   
+
 }
 .btn.extra:hover, a.btn.extra:hover{
-    
+
 }
 
 /*================================================
@@ -507,7 +507,7 @@ btn.extra:hover, a.btn.extra:hover{
     margin: 0;
 }
 .single-service.theme-color:hover{
-   
+
 }
 
 
@@ -538,8 +538,8 @@ ul.work-list li {
    }
 
 .single-work img {
-    -webkit-transform: scale(1.15);
-            transform: scale(1.15);
+    -webkit-transform: scale(1);
+            transform: scale(1);
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
 }
@@ -603,7 +603,7 @@ ul.work-list li {
     vertical-align: middle;
 }
 .single-work:hover .hover-content{
-    
+
 }
 .hover-content h3, .hover-content p{
     color: #fff;
@@ -640,7 +640,7 @@ ul.work-list li {
 }
 
 /*================================================
-            8 QUOTES AREA 
+            8 QUOTES AREA
 ==================================================*/
 .quotes-area{
     background-size: cover;
@@ -658,7 +658,7 @@ ul.work-list li {
     color: #fff;
 }
 .quotes-content a{
-   
+
     margin-top: 25px;
 }
 .quotes-area i.fa.fa-pencil {
@@ -668,11 +668,11 @@ ul.work-list li {
 
 
 /*================================================
-            9 TESTIMONIAL AREA 
+            9 TESTIMONIAL AREA
 ==================================================*/
 
 .testimonial-area{
-    
+
 }
 .single-testimonial {
     position: relative;
@@ -718,7 +718,7 @@ ul.work-list li {
   width: 15px;
 }
 .testimonial-area .owl-dots div.active{
-   
+
 }
 
 
@@ -762,7 +762,7 @@ textarea.form-control{
     cursor: not-allowed;
 }
 .btn.btn-effect.disabled:hover {
-  
+
 }
 .single-address{
     margin-bottom: 20px;
